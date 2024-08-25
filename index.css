@@ -31,6 +31,7 @@ h1 {
     color: white;
     font-family: 'Times New Roman', Times, serif;
     font-size: 3rem;
+    text-shadow: 4px 4px 2px #3480d2e1;
     text-transform: uppercase;
     text-align: center;
 }
