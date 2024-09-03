@@ -31,7 +31,7 @@ h1 {
     color: white;
     font-family: 'Times New Roman', Times, serif;
     font-size: 3rem;
-    text-shadow: 4px 4px 2px #3480d2e1;
+    text-shadow: #b02354 1px 0 8px ;
     text-transform: uppercase;
     text-align: center;
 }
@@ -46,7 +46,7 @@ h1 {
 .button {
     margin: 0 10px;
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: #b02354dd;
     color: white;
     text-decoration: none;
     border-radius: 5px;
