@@ -47,12 +47,6 @@
   margin: 16px;
 }
 
-#dialog .DiaWarning {
-  margin: 16px;
-  font-size: 14px;
-  font-style: italic;
-}
-
 #dialog .DiaInput {
   margin: 16px;
 }
@@ -86,7 +80,6 @@
 }
 
 #dialog .DiaDisplayText {
-  font-family: inherit;
   height: 200px;
   padding: 4px 8px;
   overflow: scroll;   /* vertical scrollbar is mandatory */
