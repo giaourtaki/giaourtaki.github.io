@@ -1,8 +1,4 @@
-/*
 
-Standard CSS file for use with Standard.html and Standard-Source.html. 
-
-*/
 
 
 body
@@ -17,10 +13,7 @@ body
 	margin-top: 2em;
 }
 
-/* 
-Paragraph features defined here apply without distinction to blurb and
-source paragraphs. 
-*/
+
 
 p
 {
@@ -28,12 +21,7 @@ p
 	line-height: 1.4;
 }
 
-/* 
-Here we get rid of underlining for links, and provide a more subdued 
-color scheme than the bright-blue HTML standard. 
 
-Best color schemes are likely to vary depending on cover art.
-*/
 
 a
 {
@@ -63,10 +51,7 @@ a:hover
 	text-align: right;
 } 
 
-/* 
-Here we make invisible the one-pixel border that currently goes around
-the cover image. 
-*/
+
 
 .coverimage a
 {
@@ -76,17 +61,7 @@ the cover image.
 	color: #FFF;
 }
 
-/* 
-The introduction formatting applies to the title, author name, and release
-number, here presented at the top of the page. 
 
-To change the appearance of specific elements, tweak
-
-	h1 for the title
-	h2 for the author name
-	.bibliography for the release information
-
-*/
 
 .introduction
 { 
@@ -97,21 +72,11 @@ To change the appearance of specific elements, tweak
 	text-align: left;
 }
 
-/* 
-These set the sizes for the title (h1) and the author name (h2). 
 
-The ideal font-size for h1 may vary quite a bit depending on how long the 
-game's title is: larger for one-word titles, smaller for longer titles.
-
-Should we wish to remove the title entirely and allow the cover art alone
-to represent the game, we need only add the line "display: none;" to the
-definition of h1.
-
-*/
 h1 { font-size: 2em;  }
 h2 { font-size: 1em; line-height: .25;}
 
-/* The about formatting applies to blurb information. */
+
 
 .about
 {
@@ -121,11 +86,7 @@ h2 { font-size: 1em; line-height: .25;}
 	text-align: left;
 }
 
-/* 
-By setting about p and about p + p, we instruct the first paragraph of the
-blurb to be unindented but subsequent paragraphs to be indented a small 
-distance. 
-*/
+
 
 .about p { margin-bottom: 0; }
 
@@ -135,9 +96,7 @@ distance.
 	margin-top: 0;
 }
 
-/* 
-Playinfo affects the paragraph at the bottom of the home-page that supplies
-the IFID for the game and suggests interpreters for the author to use. */
+
 
 .playinfo
 {
@@ -149,13 +108,6 @@ the IFID for the game and suggests interpreters for the author to use. */
 	font-size: .75em;
 }
 
-
-/* 
-The links formatting applies to the story file and auxiliary links found
-on the home page, and to the Contents, Next, and Previous links on the 
-source pages. Here we arrange for them to appear in a column at the left
-side of the page. 
-*/
 
 .links
 {
@@ -173,18 +125,11 @@ side of the page.
 	padding: .4 em;
 }
 
-/* 
-The filetype id applies only to the little (blorb), (pdf), and similar
-denotations found on the links. Here we make these appear smaller than the 
-surrounding text. In order to get rid of them entirely, we would add 
-"display: none;" to our filetype definition. 
-*/ 
+
 
 span.filetype { font-size: .5em; }
 
-/* 
-Source formatting applies to the source text on generated pages. 
-*/
+
 
 .source
 {
@@ -226,10 +171,6 @@ Source formatting applies to the source text on generated pages.
 	text-align: right;
 } 
 
-/* 
-Here we make invisible the one-pixel border that currently goes around
-the cover image. 
-*/
 
 .sourcecoverimage a
 {
@@ -277,11 +218,7 @@ span.heading
 	vertical-align: top;
 } 
 
-/*
-We could alter the following in order to make the footnote links in the source
-text appear different from other links, but otherwise they will be the same
-color as other links -- which is fine as a default.
-*/
+
 
 span.notecue
 {
@@ -289,11 +226,7 @@ span.notecue
 	vertical-align: super;
 }
 
-/* 
-Here we tell the elements of the table of contents not to be listed with
-bullets because this tends to produce considerable visual clutter especially
-with large project files. 
-*/
+
 
 .source li
 {
@@ -301,9 +234,7 @@ with large project files.
 	list-style-position: default;
 }
 
-/* 
-Notes applies to footnotes on the source text. 
-*/
+
 
 .notes
 {
@@ -392,16 +323,14 @@ p.indent9
 	margin-top: 0;
 }
 
-/*
-Styles for play.html
-*/
+
 .play .coverimage
 {
 	position: fixed;
 }
 .play .links
 {
-	margin-top: 200px;
+	margin-top: 300px;
 	position: fixed;
 }
 
@@ -424,9 +353,7 @@ Styles for play.html
 	top: 0px;
 }
 
-/*
-Styles for mobile browsers: change to a one-column layout.
-*/
+
 
 @media screen and (max-device-width: 480px)
 {
